@@ -1,0 +1,27 @@
+/* Gobal style*/
+
+*{
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+nav .navRight{
+    position: absolute;
+    right: 30px;
+}
+.section1 .mainTxt{
+    font-size: 24px; 
+}
+.form{
+    width:100%;
+}
+.inputs{width:100%}
+.inputs ,.location,.cat,.search{
+    display: inline-block;
+    margin:0;
+    
+}
+.location,.cat,.search{width: 30%;}
+
+/*Packages Style*/
+.title{text-align: center;}
