@@ -1,0 +1,33 @@
+{
+  "name": "costreet",
+  "version": "1.0.0",
+  "description": "new app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghyathmoussa/CoStreet.git"
+  },
+  "keywords": [
+    "199911gh"
+  ],
+  "author": "Ghyath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghyathmoussa/CoStreet/issues"
+  },
+  "homepage": "https://github.com/ghyathmoussa/CoStreet#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "react-redux": "^7.2.1",
+    "webpack": "^4.44.1"
+  }
+}

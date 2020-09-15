@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+html(lang="en")
+
+head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="../css/bootstrap.css")
+    link(rel="stylesheet" href="../css/style.css")
+    title Costreet
+
+body
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a(href="#").navbar-brand Costreets
+        button(type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler
+            span.navbar-toggler-icon
+
+        div.collapse.navbar-collapse.navRight#navbarNavDropdown
+            ul.navbar-nav
+                li.nav-item active
+                    a(class="nav-link" href="#") Home 
+                    span(class="sr-only") current
+    
+                li(class="nav-item")
+                    a(class="nav-link" href="#") Features
+                
+                li(class="nav-item")
+                    a(class="nav-link" href="#") Pricing
+    
+                li(class="nav-item dropdown")
+                    a(class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Dropdown link   
+                    
+                    div(class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink")
+                        a(class="dropdown-item" href="#") Action
+                        a(class="dropdown-item" href="#") Another action
+                        a(class="dropdown-item" href="#") Something else here
+
+    div(class="container section1")
+        div(class="row")
+            div(class="mainTxt")
+                p(class="txt font-italic text-center") Lorem, ipsum dolor sit amet consecteturadipisicing elit. Explicabo quas, adipisci harum doloremque iste enim possimus facilis maxime! Doloremque dolorum rerum,laudantium sapiente molestias voluptatum officiis facilis iste quae nulla!
+
+            div(class="form")
+                form(action="")
+                    div(class="inputs")
+                        div(class="search form-group")
+                            input#search.form-control(type='search' name='search')
+.cat.form-group
+  select#category.form-control(name='category')
+    option(value='cat-1') cat1
+    option(value='cat-2') cat2
+    option(value='cat-3') cat3
+    option(value='cat-4') cat4
+.location.form-group
+  input#location.form-control(type='text' name='location')
+button.btn.btn-primary Search
+.container
+  .row
+    .col-md-4.mt-4
+      .card
+        .card-body
+          .card-title
+            p.title Basic
+          ul.list-group
+            li.list-group-item 1- 1 logo image
+            li.list-group-item 2- Company Name
+            li.list-group-item 3- Phone
+            li.list-group-item 4- Address
+            li.list-group-item 5- 1 social media
+          .mt-3
+            button.btn.btn-primary.p-btn  Take it
+script(src='../js/bootstrap.js')
+script(src='../js/jquery.js')
+script(src='../js/app.js')

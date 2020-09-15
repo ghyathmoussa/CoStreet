@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+html(lang="en")
+
+head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="../css/bootstrap.css")
+    link(rel="stylesheet" href="../css/style.css")
+    title Costreet
+
+body
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        a(href="#").navbar-brand Costreets
+        button(type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler
+            span.navbar-toggler-icon
+
+        div.collapse.navbar-collapse.navRight#navbarNavDropdown
+            ul.navbar-nav
+                li.nav-item active
+                    a(class="nav-link" href="#") Home 
+                    span(class="sr-only") current
+    
+                li(class="nav-item")
+                    a(class="nav-link" href="#") Features
+                
+                li(class="nav-item")
+                    a(class="nav-link" href="#") Pricing
+    
+                li(class="nav-item dropdown")
+                    a(class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Dropdown link   
+                    
+                    div(class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink")
+                        a(class="dropdown-item" href="#") Action
+                        a(class="dropdown-item" href="#") Another action
+                        a(class="dropdown-item" href="#") Something else here
